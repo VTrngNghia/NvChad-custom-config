@@ -13,4 +13,12 @@ M.options = {
   relativenumber = true,
 }
 
+M.plugins = {
+  options = {
+    bufferline = {
+      mode = "tabs",
+    }
+  } 
+}
+
 return M
